@@ -8,4 +8,8 @@ pragma solidity ^0.8.0;
         return message;
     }
 
+    function sum(uint firstNum, uint secondNum) public pure returns (uint ){
+        return firstNum+secondNum;
+    }
+
 }
